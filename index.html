@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易 Todo-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>我的待办事项</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="添加新任务...">
+            <button id="addBtn">添加</button>
+        </div>
+        <ul id="taskList"></ul>
+        <div class="stats">
+            <span id="totalTasks">总任务: 0</span>
+            <span id="completedTasks">已完成: 0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
